@@ -1,0 +1,38 @@
+.button_group {
+    display: flex;
+    
+  }
+  
+  .button_group button {
+    margin-right: 10px;
+    width: 100%;
+   padding: 3px 10px;
+   text-align: center;
+   border: none;
+  }
+  
+  .button1, .button1:hover {
+  background-color: #DDDDF2;
+  height: 60px;
+  }
+  .button2,.button2:hover {
+  background-color: #D5D5EF;
+  height: 60px;
+  }
+  .button3, .button3:hover{
+  background-color: #BCBCEC;
+  height: 60px;
+  }
+  
+  .card.dark_mode .button1{
+  background-color: #25377f;
+  color:white;
+  }
+  .card.dark_mode .button2{
+  background-color: #151e42;
+  color:white;
+  }
+  .card.dark_mode .button3{
+  background-color: #070C21;
+  color:white;
+  }

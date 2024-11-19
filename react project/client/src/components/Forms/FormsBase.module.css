@@ -1,0 +1,151 @@
+.vertical_line {
+    border-right: 2px solid black;
+    border-top: none;
+    width: 1%;
+
+}
+
+.form_control {
+border: 1px solid black;
+border-radius: 20px;
+margin: 10px;
+padding: 8px 20px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5% 25%;
+}
+.body.dark-mode .button {
+background-color: black;
+}
+.button_form{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    }
+
+.button_form24{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  height: 46px;
+  }
+.button_submit_editing_profile {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 35%;
+    width: 30%;
+}
+next {
+background-color: transparent;
+border: none;
+outline: none;
+padding: 0;
+}
+prev {
+background-color: transparent;
+border: none;
+outline: none;
+padding: 0;
+}
+button.next, button.prev:focus {
+outline: none; /* Убираем контур фокуса */
+}
+.steps {
+display: flex;
+width: 100%;
+}
+
+.step {
+display: none;
+width: 100%;
+}
+
+.step.active {
+display: block;
+width: 100%;
+}
+
+.block_form {
+border-radius: 20px;
+padding: 3% 3%;
+margin: 10px 0;
+border: 3px solid #F8F5F5;
+}
+
+.checkbox_style input[type="checkbox"]:hover{
+    border: 1px solid #8F8FEB;
+  }
+  .checkbox_style input[type="checkbox"]:checked{
+    background-color: #8F8FEB;
+  }
+  .checkbox_style input[type="checkbox"]{
+    border: 1px solid black; 
+    font-weight: bold; 
+    width: 20px; 
+  height: 20px;
+  }
+
+  .button17 {
+    background-color: white;
+      border: 2px solid #8F8FEB;
+      border-bottom: 3px solid #8F8FEB;
+      border-radius: 5px;
+      color:black;
+      height: 55px;
+      padding: 2px 0px;
+      width: 220px;
+  }
+@media screen and (max-width: 768px) {
+
+.form-control::placeholder{
+font-size: 13px;
+}
+.card{
+font-size: 14px;
+padding: 0px;
+margin: 10px 0;
+line-height: 1.2;
+}
+.block_form {
+width: 100%;
+margin: 0 0%;
+}
+.form_control {
+padding: 0 10px;
+height: 35px;
+font-size: 14px;
+margin: 3px 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .form_control {
+        padding: 0 10px;
+        height: 35px;
+        font-size: 14px;
+        margin: 3px 0;
+        }
+        
+  }
+  

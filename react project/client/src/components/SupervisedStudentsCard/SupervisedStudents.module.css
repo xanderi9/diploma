@@ -1,0 +1,36 @@
+.block {
+    border-radius: 20px;
+    padding: 1% 0 1% 10%;
+    margin: 10px 3%;
+    background-color: #F8F5F5;
+    }
+.block.dark_mode {
+    border-radius: 20px;
+    padding: 1% 0 1% 10%;
+    margin: 10px 3%;
+    background-color: #555555;
+    }
+.button_actions {
+    background-color: #F8F5F5;
+    width: 80%;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #8F8FEB;
+    border-bottom: 3px solid #8F8FEB;
+    }
+    .actions_list {
+    border: 1px solid #CEC1F1;
+    z-index: 2;
+    position: absolute;
+    background-color: #fff;
+    }
+    
+    .actions_list button {
+        display: block;
+        padding: 5px;
+        border: 2px solid #CEC1F1;
+        background: none;
+        cursor: pointer;
+        width: 100%;
+    }

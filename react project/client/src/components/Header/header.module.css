@@ -1,0 +1,22 @@
+.menu_gradient {
+    background: linear-gradient(45deg, #DDDDF2, #E9E6FF);
+    width: 100%;
+   }
+   .navbar-nav p{
+    color: black;
+    }
+    .nav-link{
+        color: black;
+        }
+
+    .menu_gradient.dark_mode {
+            background: linear-gradient(45deg, #333333, #333333); /* Градиент для темного режима */
+            color: #fff; /* Цвет текста */
+    }
+        
+    .menu_gradient.dark_mode img  {
+            filter: invert(100%); /* Инвертируем цвет изображения */
+    }
+   .menu_gradient.dark_mode p{
+            color: white; /* установите белый цвет текста для всех ссылок в навигационном меню */
+    }

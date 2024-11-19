@@ -1,0 +1,241 @@
+
+    .container {
+        margin: 0% 0% 0% 0%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .left_column {
+        flex: 1;
+    }
+    
+    .right_column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card {
+        margin: 10px 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px 5%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+    }
+    .card-4 {
+        flex: 1;
+        margin: 10px 20px; /* Расстояние между карточками */
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+        width: 48%;
+        max-height:160px;
+    }
+    
+    .block {
+     background-color: #F8F5F5;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        display: flex; /* Для каждого блока внутри строки использовать flexbox */
+        flex-direction: column; /* Отображать блоки в столбец */
+        justify-content: space-between; /* Равномерно распределить пространство между блоками */
+    
+    }
+    
+    .block-item {
+     display: block;
+        margin: 5px 0; /* Добавить небольшой отступ сверху и снизу между пунктами */
+        word-wrap: break-word;
+    }
+    .button_edit_prof {
+      background-color: white;
+      border: 3px solid #DDDDF2;
+      width: 86%;
+      margin: 1% 7% 3% 7%;
+      font-weight: bold;
+      border-radius: 20px;
+      color:black;
+       height: 50px;
+       padding: 4% 0;
+     }
+     
+     .button_note {
+      background-color: white;
+      border: 3px solid #000;
+      width: 86%;
+      margin: 1% 7% 3% 7%;
+      font-weight: bold;
+      border-radius: 20px;
+      color:black;
+       height: 50px;
+       padding: 3% 0;
+     }
+    
+    .request_field {
+      background-color: #F8F5F5;
+      border-radius: 20px;
+      padding: 3% 3%;
+      margin: 0 0 10px 0;
+      }
+
+      .button_accept, .button_accept:hover   {
+        border: none;
+        background-color: #DDDDF2;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+       }
+       .button_decline, .button_decline:hover {
+        background-color: #AFAFCF;
+        border: none;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+       }
+       .badge {
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 5px 8px;
+        font-size: 12px;
+        margin-left: 5px;
+      }
+      
+    a {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      color: #000;
+    }
+    
+    a:link,
+    a:visited {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    a:focus {
+      color: #81819c;
+      text-decoration: none;
+    }
+    
+    /* Стили для состояния наведения */
+    a:hover {
+      color: #81819c;
+      text-decoration: none;
+    }
+    
+    /* Стили для состояния активности */
+    a:active {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    
+    #openModalsettings{
+    cursor: pointer;
+    }
+    .details2 {
+     background-color: #E8E8F8;
+     margin: 1% 0% 1% 0%;
+     border-radius: 5px;
+    }
+    .themes_list {
+     margin: 0% 3% 0% 3%;
+    }
+    .more{
+     width: 15%;
+     margin: 0% 42% 0% 42%;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .body.dark_mode .edit-theme {
+    filter: invert(100%);
+    }
+    .body.dark_mode .edit-theme {
+    filter: invert(100%);
+    }
+    .body.dark_mode .reveal {
+    filter: invert(100%);
+    }
+    
+    .checkbox_style input[type="checkbox"]{
+      border: 1px solid black; 
+      font-weight: bold; 
+      width: 20px; 
+    height: 20px;
+    }
+    .checkbox_style input[type="checkbox"]:hover{
+      border: 1px solid #8F8FEB;
+    }
+    .checkbox_style input[type="checkbox"]:checked{
+      background-color: #8F8FEB;
+    }
+
+    
+    @media screen and (max-width: 768px) {
+    
+    .hide_on_small{
+    display:none;
+    }
+    .search_area {
+        margin: 5% 5% 0 5%;
+        border-radius: 15px;
+        padding: 8px;
+    }
+    
+    .search_area img {
+        width: 100%;
+        margin: 0%; /* Добавляем небольшой отступ между изображением и формой */
+    }
+
+    .card{
+    font-size: 14px;
+    padding: 0px;
+    margin: 10px 0;
+    line-height: 1.2;
+    }
+    
+    
+    .card table{
+    width:100%;
+    margin: 0;
+    
+    }
+    .card table td {
+    padding-bottom: 0%;
+    }
+    .card table td, .card table th, .card table tr {
+       line-height: 1.2;
+       border-spacing: 0;
+    }
+    .button_edit_prof {
+     border: 2px solid #DDDDF2;
+     padding: 10px 2.2px;
+     border-radius: 5px;
+      margin: 0% 2% 1% 7%;
+    }
+    .button_note {
+     border: 2px solid #000;
+     padding: 1px 2.2px;
+     border-radius: 5px;
+     margin: 0% 2% 1% 7%;
+    }
+      .navbar{
+       width: 100%;
+       margin: 0 0 0 0%;
+       padding: 0 0;
+       }
+       .footer{
+       width:100%;
+       }
+    }

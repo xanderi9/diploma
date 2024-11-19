@@ -1,0 +1,63 @@
+
+.table_themes {
+  border-spacing: 0; 
+/* Уменьшите значение, чтобы уменьшить ширину таблицы */
+  margin: 0 auto;
+  
+}
+
+.table_themes td, 
+.table_themes th {
+  padding: 8px; /* Установка отступа для ячеек */
+  border: 1px solid black; /* Границы ячеек */
+  line-height: 1.1;
+}
+
+.table_themes th:last-child {
+    border: none;
+  }
+
+  .block_form {
+    border-radius: 10px;
+    padding: 7px 5px;
+    margin: 5px 5px;
+    border: 1px solid #000000;
+    }
+    
+
+    .checkbox_style input[type="checkbox"]:hover{
+      border: 1px solid #8F8FEB;
+    }
+    .checkbox_style input[type="checkbox"]:checked{
+      background-color: #8F8FEB;
+    }
+    .checkbox_style input[type="checkbox"]{
+      border: 1px solid black; 
+      font-weight: bold; 
+      width: 20px; 
+    height: 20px;
+    }
+
+    .button1,.button1:hover  {
+      background-color: white;
+        border: 2px solid #8F8FEB;
+        border-bottom: 3px solid #8F8FEB;
+        border-radius: 5px;
+        color:black;
+        height: 40px;
+        width: 70%;
+    }
+    
+    .button2, .button2:hover  {
+      background-color: white;
+        border: 2px solid black;
+        border-bottom: 3px solidblack;
+        border-radius: 5px;
+        color:black;
+        height: 40px;
+        width: 70%;
+    }
+
+    .catch{
+      margin: 0 3%;
+    }

@@ -1,0 +1,27 @@
+.darkmode {
+    background-color: #111111;
+color: white;
+border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.button_cancel, .button_cancel:hover {
+    background-color: white;
+    border: 3px solid #DDDDF2;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 150px;
+    height: 40px;
+   }
+   .button_next, .button_next:hover {
+    background-color: white;
+    border: 3px solid #111111;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    width: 150px;
+    height: 40px;
+   }

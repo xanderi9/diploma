@@ -1,0 +1,67 @@
+.sidebar {
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #DDEEF5, #CEC1F1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 3000;
+}
+
+.sidebar.dark_mode {
+  background: linear-gradient(45deg, #121212, #3a1a6e);
+  color: white;
+  }
+
+  .sidebar.dark_mode ul li a{
+    color: white;
+    }
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0 0 0 10%;
+}
+
+.sidebar ul li {
+  padding: 15px;
+}
+
+.sidebar ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  color: #fff;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+}
+
+.close_btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.close-btn:focus {
+  outline: none;
+}

@@ -1,0 +1,41 @@
+.form_control {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    min-height: 80px;
+    width: 210px;
+}
+
+.graf_table {
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.graf_table input {
+    height: 80px;                 /* Set the desired height */            /* Adjust padding on the left and right */
+    line-height: 30px;            /* Set line-height to match the height of the input */
+    vertical-align: middle;       /* Aligns the input element itself */
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.button_form{
+    background-color: black;
+    color: white;
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 3% 0;
+    }
+
+    .button_cancel{
+        border: 3px solid #DDDDF2;
+        background-color: white;
+        width: 60%;
+        border-radius: 20px;
+        padding: 7px 10px;
+        margin: 3% 0;
+        }

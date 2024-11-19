@@ -1,0 +1,97 @@
+.table-prof_data{
+    border-spacing: 0;
+   }
+   .table-prof_data tr{
+    border-spacing: 0;
+   }
+   
+   .button_choose_ruk {
+    background-color: white;
+    border: 3px solid #DDDDF2;
+    width: 40%;
+    margin: 0 30% 0 30%;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+   }
+   
+   .card {
+    margin: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+.card.dark_mode {
+    background: #333333;
+    color: #fff;
+    }
+.card_4 {
+    flex: 1;
+    margin: 10px 20px; /* Расстояние между карточками */
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+    width: 48%;
+    max-height:160px;
+}
+.block {
+    background-color: #F8F5F5;
+           border-radius: 10px;
+           padding: 10px;
+           margin-bottom: 10px;
+       display: flex; /* Для каждого блока внутри строки использовать flexbox */
+       flex-direction: column; /* Отображать блоки в столбец */
+       justify-content: space-between; /* Равномерно распределить пространство между блоками */
+   
+   }
+   
+   
+   .block_item {
+    display: block;
+       margin: 5px 0; /* Добавить небольшой отступ сверху и снизу между пунктами */
+       word-wrap: break-word;
+   }
+   .button_edit_prof {
+    background-color: white;
+    border: 3px solid #DDDDF2;
+    width: 86%;
+    margin: 1% 7% 3% 7%;
+    font-weight: bold;
+    border-radius: 20px;
+    color:black;
+     height: 50px;
+     padding: 3% 0;
+   }
+   
+   .button_note {
+    background-color: white;
+    border: 3px solid #000;
+    width: 86%;
+    margin: 1% 7% 3% 7%;
+    font-weight: bold;
+    border-radius: 20px;
+    color:black;
+     height: 50px;
+     padding: 3% 0;
+   }
+
+   .settings {
+    cursor: pointer;
+   }
+
+   .left_column {
+    flex: 1;
+}
+
+.right_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_info_documents {
+    background-color: #d9b8e5;
+}

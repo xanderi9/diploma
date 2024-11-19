@@ -1,0 +1,151 @@
+.navbar-nav {
+    padding: 0 15%;
+ }
+ .container{
+   margin: 2% 12% 3% 12%;
+   padding: 0;
+ }
+ .auth_form_left a {
+     outline: none;
+     text-decoration: none;
+     border: none;
+     padding: 10px 20px ;
+     color: #fff;
+ }
+ 
+ .auth_form_left {
+    background: linear-gradient(45deg, #DDEEF5, #CEC1F1);
+    border-radius: 5%;
+    width: 80%;
+    height: 65%;
+    margin: 8% 12%;
+    padding: 0;
+ }
+ 
+ .auth_form_right {
+     background: #CEC2F1;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     width: 100%;
+ }
+ 
+ .card_fone {
+     background: #fff;
+     border-radius: 20px;
+     width: 100%;
+     padding: 0;
+ }
+ 
+ 
+ .auth_form_input {
+     border: 3px solid white;
+     border-radius: 20px;
+     background-color: transparent;
+     color: black;
+     padding: 10px;
+     width: 80%;
+     outline: none;
+     margin: 10px 0;
+ }
+ 
+ .auth_form_input::placeholder {
+     color: black;
+     font-weight: bold;
+ }
+ .button34 {
+     background-color: black;
+     color: white;
+     width: 50%;
+     font-weight: bold;
+     font-size: 20px;
+     padding: 5px 10px;
+     border: none;
+     border-radius: 20px;
+     text-decoration: none;
+ }
+ 
+ .button:link {
+     color: #fff;
+     text-decoration: none;
+     background-color: black;
+ }
+ .button:visited {
+     color: #fff;
+     text-decoration: none;
+     background-color: black;
+ }
+ .button:focus {
+     color: #DDDDF2;
+     text-decoration: none;
+     background-color: black;
+ }
+ .button:hover {
+     color: #DDDDF2;
+     text-decoration: none;
+     background-color: black;
+ }
+ .button:active {
+     color: #fff;
+     text-decoration: none;
+     background-color: black;
+ }
+ 
+ /*ТЕМНАЯ ТЕМА */
+ 
+ .card_fone.dark_mode {
+     background-color: #000000; /* Цвет фона */
+     color: #fff; /* Цвет текста */
+ }
+.auth_form_left.dark_mode {
+     background: linear-gradient(45deg, #121212, #070C21);
+     color: #fff; /* Цвет текста */ /* Цвет текста */
+ }
+ 
+.auth_form_right.dark_mode {
+     background-color: #111111;
+ 
+ }
+ .button.dark_mode{
+    background-color: white;
+ }
+ 
+ /* МЕДИАЗАПРОСЫ*/
+ 
+ @media screen and (max-width: 768px) {
+ 
+    .navbar{
+    width: 100%;
+    margin: 0 0 0 0%;
+    padding: 0 0;
+    }
+    .container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+    .navbar-nav{
+    font-size: 14px;
+    padding: 1% 2%;
+    }
+    .nav-item{
+    margin: 0 5%;
+    }
+    .card_fone{
+    width: 100%;
+    padding: 0;
+    }
+    .auth-form_right{
+     border-top-right-radius: 0px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     margin:0;
+    }
+     .auth-form_left{
+    margin-bottom: 10%;
+    margin-left: 0%;
+    width: 90%;
+    }
+    .auth_form_input{
+    padding: 5px 10px;
+    }
+ }

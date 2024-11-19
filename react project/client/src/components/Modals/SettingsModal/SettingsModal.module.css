@@ -1,0 +1,22 @@
+
+    .button_save_settings {
+     background-color: white;
+     border: 3px solid #DDDDF2;
+     font-weight: bold;
+     width: 150px;
+     border-radius: 5px;
+     text-align: center;
+     height: 40px;
+    }
+    .modal_button {
+        background-color: black;
+        color: white;
+        width: 150px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-align: center;
+        height: 40px;
+        }
+    .modalform input[type="checkbox"] {
+        transform: scale(1.5); /* Увеличиваем размер в 1.5 раза */
+    }

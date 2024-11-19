@@ -1,0 +1,48 @@
+.card{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+    overflow-x: auto;
+} 
+ .container{
+    margin: 2% 12% 3% 12%;
+  }
+  .card.dark_mode {
+    background: #333333;
+    color: #fff;
+    }
+  .card.dark_mode input {
+    background: #444444;
+    color: #fff;
+    }
+    .card.dark_mode select {
+      background: #444444;
+      color: #fff;
+      }
+      .card.dark_mode textarea {
+        background: #444444;
+        color: #fff;
+        }
+
+        
+    .card.dark_mode table td, .card.dark_mode table th {
+      border: 1px solid white;
+      background-color: transparent;
+      color: white;
+      }
+    
+      .card.dark_mode table td img {
+      filter: invert(100%);
+        }
+
+        .card.dark_mode a {
+          color: white;
+            }
+      @media (max-width: 768px) {
+        .card {
+          width: 90%; 
+          margin: 0 auto;
+        }
+      }
+      

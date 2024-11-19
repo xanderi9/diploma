@@ -1,0 +1,130 @@
+.body{
+    background: #DDDDF2;
+    overflow-y: auto;
+     position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+    .body.dark_mode {
+      background: #222222;
+}
+.body.dark_mode ::placeholder{
+color: #cfcdd1;
+}
+
+
+.body.dark_mode input{
+    color: white;
+}
+.body.dark_mode .card {
+background: #333333;
+color: #fff;
+}
+
+.body.dark_mode .form-control{
+    background-color: #555555;
+    border: 1px solid #cccccc;
+}
+.body.dark_mode .block_form {
+    border: 3px solid #444;
+}
+
+.body.dark_mode .block_form select {
+    color: #cfcdd1;
+}
+
+.body.dark_mode select {
+    color: #cfcdd1;
+}
+.body.dark_mode datalist {
+    color: #cfcdd1;
+}
+.body.dark_mode .card .block {
+  background-color: #444444; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+}
+.body.dark_mode .card-4 {
+  background-color: #333333; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+}
+
+.body.dark_mode .card-4 p {
+  color: #fff; /* Цвет текста */
+}
+
+.body.dark-mode .card a {
+  color: #fff; /* Цвет текста */
+}
+.body.dark_mode .actions img {
+ filter: invert(100%);
+}
+
+.body.dark_mode .stud_table img {
+ filter: invert(100%);
+}
+.body.dark_mode .sec_table img {
+ filter: invert(100%);
+}
+.body.dark_mode .teacher_documents img {
+ filter: invert(100%);
+}
+
+.body.dark_mode .details1 {
+  background-color:#7e53c2;
+}
+
+.body.dark_mode .details2 {
+  background-color:#663da8 ;
+}
+
+.body.dark_mode .complex_vkr {
+ background-color:  #3a1a6e;
+}
+
+.body.dark_mode .search_area {
+background-color: #444444; /* Цвет фона */
+  color: #fff;
+}
+.body.dark_mode .search_area img {
+  filter: invert(100%);
+}
+.body.dark_mode .menu_gradient {
+  background: linear-gradient(45deg, #333333, #333333); /* Градиент для темного режима */
+  color: #fff; /* Цвет текста */
+}
+
+.body.dark_mode .nav-link img {
+  filter: invert(100%); /* Инвертируем цвет изображения */
+}
+.body.dark_mode .open-btn img {
+  filter: invert(100%); /* Инвертируем цвет изображения */
+}
+.body.dark-mode .navbar-nav p{
+  color: white; /* установите белый цвет текста для всех ссылок в навигационном меню */
+}
+.body.dark_mode .sidebar{
+background: linear-gradient(45deg, #121212, #3a1a6e);
+}
+
+.body.dark_mode .sidebar ul li a{
+color: white;
+}
+
+
+.body.dark_mode button{
+background: transparent;
+color: white;
+}
+.body.dark_mode .button_edit_prof{
+background: transparent;
+color: white;
+}
+.body.dark_mode .button_choose_ruk{
+background: transparent;
+color: white;
+}
+
+.body.dark_mode .block-info{
+background: #666666;
+}

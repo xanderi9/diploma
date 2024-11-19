@@ -1,0 +1,36 @@
+.card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+.container{
+    margin: 2% 12% 3% 12%;
+  }
+.button_choose_teacher{
+    background-color: white;
+    border: 3px solid #DDDDF2;
+    width: 100%;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    color:black;
+   }
+  .button_choose_teacher:hover {
+     border: 3px solid #DDDDF2;
+     text-decoration: none;
+     color:black;
+   }
+   
+   .teachers_list th {
+   text-align: center;
+   }
+   .teachers_list td:nth-child(2) {
+    text-align: center;
+  }
+ 
+  

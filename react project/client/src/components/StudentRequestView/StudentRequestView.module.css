@@ -1,0 +1,24 @@
+.button1 {
+    background-color: #c9bee5;
+    color: black;
+    border-radius: 10px; 
+    border: none;
+    padding: 5px 20px;
+    height: 60px;
+}
+.button2 {
+    background-color: #a29ad9;
+    color: black;
+    border-radius: 10px; 
+    border: none;
+    padding: 5px 20px;
+    height: 60px;
+}
+.button3 {
+    background-color: #b7adf7;
+    color: black;
+    border-radius: 10px; 
+    border: none;
+    padding: 5px 20px;  
+    height: 60px;
+}

@@ -1,0 +1,19 @@
+.card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+.container{
+    margin: 2% 12% 3% 12%;
+  }
+  .button1, .button1:hover {
+    background-color: white;
+      border: 2px solid #8F8FEB;
+      border-bottom: 3px solid #8F8FEB;
+      border-radius: 5px;
+      color:black;
+      height: 40px;
+      width: 70%;
+  }
